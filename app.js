@@ -16,22 +16,22 @@ const noiDung2 = {
 };
 
 app.get('/', (req, res) => {
-    console.log('Sent school information successfully');
-    res.send("PhamThanhDat_20521175 chao ban");
+    console.log('Sent information successfully');
+    res.send("PHAM THANH DAT UIT");
 })
 
 app.get('/truong', (req, res) => {
-    console.log('Sent school information success');
+    console.log('Sent information successfully');
     res.send(noiDung);
 })
 
 app.get('/ktx', (req, res) => {
-    console.log('Sent school information success');
+    console.log('Sent information successfully');
     res.send(noiDung2);
 })
 
 const port = process.env.PORT || 3002;
 
-app.listen(port, hostname, () => {
+app.listen(port, () => {
     console.log(`I'm listening on port ${port}`);
 });
