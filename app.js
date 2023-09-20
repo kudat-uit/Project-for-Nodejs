@@ -21,12 +21,12 @@ app.get('/', (req, res) => {
 })
 
 app.get('/truong', (req, res) => {
-    console.log('Sent school infor success');
+    console.log('Sent school information success');
     res.send(noiDung);
 })
 
 app.get('/ktx', (req, res) => {
-    console.log('Sent school infor success');
+    console.log('Sent school information success');
     res.send(noiDung2);
 })
 
